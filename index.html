@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+
+<body>
+    <form action="#">
+ <fieldset>
+     <legend>Your Details :</legend>
+     <label for="name">Name: </label>
+     <input type="text" name="name" id="name" size="30" maxlength="100">
+     <br>
+     <label for="email">Email: </label>
+     <input type="text" name="name" id="email" size="30" maxlength="100">
+     <br>  
+ </fieldset>
+
+ <label for="company">
+     Company/Institution: 
+  <input type="text" name="company" id="company" >
+ </label>
+ <br>
+ <label for="address">
+     Address :
+     <input type="text"  name="address" id="address">
+ </label>
+<br>
+ <label for="city">
+    City :
+    <input type="text" id="city">
+</label>
+<br>
+<label for="state">
+    State :
+    <select name="state" id="state">
+        <option value="Rajasthan">Rajasthan</option>
+        <option value="Punjab">Punjab</option>
+        <option value="Haryana">Haryana</option>
+        <option value="Goa">Goa</option>
+    </select>
+</label>
+<br>
+<label for="country">
+    Country :
+    <select name="country" id="country">
+        <option value="india">India</option>
+        <option value="usa">USA</option>
+        <option value="uae">UAE</option>
+    </select>
+</label>
+<br>
+<label for="phone">
+    Number :
+    <input type="text" name="phone" id="phone">
+</label>
+<br>
+</form>
+
+<div id="half_page">
+  <form action="#">
+      <b><u>Lunch</u></b><br>
+      <label for="meal">
+          Meal Preference :
+          <select name="meal" id="meal">
+              <option value="veg">Vegetarian</option>
+              <option value="nonveg">Non-vegetarian</option>
+              <option value="vegan">Vegan</option>
+          </select>
+      </label>
+      <br>
+
+      <b><u>Payment Details :</u></b><br>
+          <input type="checkbox" value="Cash">
+          <label for="cash">Cash</label>
+          <br>
+          <input type="checkbox" value="Cash">
+          <label for="upi">UPI</label>
+          <br>
+          <input type="checkbox" value="Cash">
+          <label for="cheq">Cheq</label>
+          <br>
+          <input type="checkbox" value="Cash">
+          <label for="netbanking">Net Banking</label>
+          <br>        
+          <input type="checkbox" value="card">
+          <label for="card">Credit/Debit Card</label>
+  </form>
+
+</div>
+
+</body>
+</html>
